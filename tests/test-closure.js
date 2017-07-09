@@ -1,11 +1,10 @@
 var assert = require('chai').assert;
 
-var outerValue = 'ninja';
-var later;
-
-
 describe('Closure', function() {
   it('Closure works', function() {
+    var outerValue = 'ninja';
+    var later;
+
     function outerFunction() {
       var innerValue = 'samurai';
 
